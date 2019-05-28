@@ -1,0 +1,17 @@
+<!-- Avoid Default Content Security Policy of Firefox -->
+<script type="text/javascript" src="CollidingAddressSearch.js"></script>
+
+Press Ctrl+Shift+i to see the output. <br>
+Possible colliding addresses are marked with a "###" <br>
+value between "()" is the distance to the last colliding address <br>
+
+<br>
+
+Make sure that SharedArrayBuffers are enabled (enabled by default in chrome >=68). <br> <br>
+
+How to enable SharedArrayBuffers? <br>
+firefox:  <br>
+about:config => javascript.options.shared_memory => true <br> <br>
+
+chrome, chrome based browser (e.g. opera): <br>
+chrome://flags/ => shared-array-buffer => true <br>
